@@ -4,7 +4,7 @@ import ballerina/io;
 
 public function main() {
 
-    //https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyDvbioXCN4NLXMWykAWC-v3_yx_czpONH0
+    //https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=KEYYYYYYYYY-v3_yx_czpONH0
     http:Client httpClient = new ("https://maps.googleapis.com");
     string apiKey = system:getEnv("GC_KEY");
     float lat = 0;
